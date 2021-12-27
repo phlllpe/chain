@@ -13,3 +13,6 @@ git:
 before_script:
   - "composer self-update"
   - "composer install --verbose"
+
+after_script:
+  - "bin/phpunit"
