@@ -7,6 +7,13 @@ build:
     php74:
       environment:
         php: 7.4
+    coverage:
+      tests:
+        override:
+          - command: bin/phpunit --coverage-clover=clover.xml
+            coverage:
+              file: clover.xml
+              format: clover
     analysis:
       tests:
         override:
@@ -17,10 +24,7 @@ build:
       -
         command: composer install --no-interaction
       -
-        command: bin/phpunit --coverage-clover=clover.xml
-        coverage:
-          file: clover.xml
-          format: php-clover
+        command: bin/phpunit
 checks:
   php:
     remove_extra_empty_lines: true
