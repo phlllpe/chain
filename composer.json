@@ -1,0 +1,32 @@
+{
+    "name": "phlllpe/chain",
+    "description": "Lib to create Chain of Responsibility",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Philipe Fernandes",
+            "email": "contato@jokerss.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5",
+        "symfony/var-dumper": "*"
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "optimize-autoloader": true
+    }
+}
