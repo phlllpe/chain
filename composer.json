@@ -29,5 +29,6 @@
     "config": {
         "bin-dir": "bin/",
         "optimize-autoloader": true
-    }
+    },
+    "minimum-stability": "dev"
 }
