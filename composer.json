@@ -3,6 +3,7 @@
     "description": "Lib to create Chain of Responsibility",
     "type": "library",
     "license": "GPL-3.0-only",
+    "version": "1.0",
     "authors": [
         {
             "name": "Philipe Fernandes",
@@ -26,8 +27,6 @@
         "phpunit/phpunit": "~9.5",
         "symfony/var-dumper": "*"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "config": {
         "bin-dir": "bin/",
         "optimize-autoloader": true
