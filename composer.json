@@ -3,7 +3,6 @@
     "description": "Lib to create Chain of Responsibility",
     "type": "library",
     "license": "GPL-3.0-only",
-    "version": "1.0",
     "authors": [
         {
             "name": "Philipe Fernandes",
