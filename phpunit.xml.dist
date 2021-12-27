@@ -19,8 +19,8 @@
 
     <coverage processUncoveredFiles="true">
         <report>
-            <clover outputFile="report/clover.xml" />
-            <html outputDirectory="report/coverage" lowUpperBound="35" highLowerBound="70"/>
+            <clover outputFile="build/clover.xml" />
+            <html outputDirectory="build/coverage" lowUpperBound="35" highLowerBound="70"/>
         </report>
         <include>
             <directory suffix=".php">src</directory>

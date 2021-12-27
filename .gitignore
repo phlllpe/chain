@@ -1,4 +1,4 @@
-report/
+build/
 bin/
 vendor/
 .idea/
