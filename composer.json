@@ -2,6 +2,7 @@
     "name": "phlllpe/chain",
     "description": "Lib to create Chain of Responsibility",
     "type": "library",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Philipe Fernandes",
