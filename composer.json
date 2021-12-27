@@ -1,7 +1,7 @@
 {
     "name": "phlllpe/chain",
     "description": "Lib to create Chain of Responsibility",
-    "type": "package",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
