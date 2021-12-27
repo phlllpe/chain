@@ -26,6 +26,7 @@
         "phpunit/phpunit": "~9.5",
         "symfony/var-dumper": "*"
     },
+    "minimum-stability": "stable",
     "config": {
         "bin-dir": "bin/",
         "optimize-autoloader": true
