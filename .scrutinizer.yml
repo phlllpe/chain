@@ -17,9 +17,8 @@ build:
       -
         command: composer install --no-interaction
       -
-        command: vendor/bin/phpunit --coverage-clover=build/clover.xml
+        command: bin/phpunit --coverage-clover=build/clover.xml
         coverage:
-          file: build/clover.xml
           format: php-clover
 checks:
   php:
