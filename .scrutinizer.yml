@@ -19,6 +19,7 @@ build:
       -
         command: bin/phpunit --coverage-clover=build/clover.xml
         coverage:
+          file: build/clover.xml
           format: php-clover
 checks:
   php:
