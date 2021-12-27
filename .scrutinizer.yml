@@ -14,7 +14,13 @@ build:
         php: 8.1
   dependencies:
     override:
-      - composer install --no-interaction
+      -
+        command: composer install --no-interaction
+      -
+        command: vendor/bin/phpunit --coverage-clover=build/clover.xml
+        coverage:
+          file: report/clover.xml
+          format: php-clover
 checks:
   php:
     remove_extra_empty_lines: true
